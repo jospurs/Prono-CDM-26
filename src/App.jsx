@@ -64,8 +64,8 @@ const EMPTY_GROUPS = Object.fromEntries(
   Object.entries(GROUPS).map(([g, t]) => [g, makeGroupMatches(t)])
 );
 
-const KO_ROUNDS = ["32èmes", "16èmes", "Quarts", "Demies", "Finale"];
-const KO_COUNTS = { "32èmes": 16, "16èmes": 8, Quarts: 4, Demies: 2, Finale: 1 };
+const KO_ROUNDS = ["Seizièmes", "Huitièmes", "Quarts", "Demies", "Finale"];
+const KO_COUNTS = { "16èmes": 16, "8èmes": 8, Quarts: 4, Demies: 2, Finale: 1 };
 
 function emptyKO() {
   return Object.fromEntries(
